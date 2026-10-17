@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: amagold-jax
+message: >-
+  This repository is a JAX port; the method and the original code belong to the
+  authors of the paper below. If you use this software, please cite that paper
+  (preferred-citation) and, if appropriate, the original code (references).
+type: software
+authors:
+  - family-names: Bolt
+    given-names: Maxwell
+    affiliation: Purdue University
+repository-code: https://github.com/BoltMaxwell/amagold-jax
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-10-17"
+preferred-citation:
+  type: conference-paper
+  title: "AMAGOLD: Amortized Metropolis Adjustment for Efficient Stochastic Gradient MCMC"
+  authors:
+    - family-names: Zhang
+      given-names: Ruqi
+    - family-names: Cooper
+      given-names: A. Feder
+    - family-names: De Sa
+      given-names: Christopher
+  collection-title: "Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics"
+  collection-type: proceedings
+  conference:
+    name: "AISTATS 2020"
+  year: 2020
+  volume: 108
+  start: 2142
+  end: 2152
+  publisher:
+    name: "PMLR"
+  url: "https://proceedings.mlr.press/v108/zhang20e.html"
+references:
+  - type: software
+    title: "AMAGOLD reference implementation"
+    authors:
+      - family-names: Zhang
+        given-names: Ruqi
+      - family-names: Cooper
+        given-names: A. Feder
+      - family-names: De Sa
+        given-names: Christopher
+    repository-code: https://github.com/ruqizhang/amagold
+    notes: The upstream repository this port was made from; it carries no license.

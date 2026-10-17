@@ -16,12 +16,16 @@ written with the assistance of Claude Code; all credit for the method and the
 experimental design belongs to the original authors:
 
 ```bibtex
-@inproceedings{zhang2020amagold,
-  title={{AMAGOLD}: Amortized {M}etropolis adjustment for efficient
-         stochastic gradient {MCMC}},
-  author={Zhang, Ruqi and Cooper, A. Feder and De Sa, Christopher},
-  booktitle={International Conference on Artificial Intelligence and Statistics},
-  year={2020}
+@inproceedings{pmlr-v108-zhang20e,
+  title     = {{AMAGOLD}: Amortized {M}etropolis Adjustment for Efficient Stochastic Gradient {MCMC}},
+  author    = {Zhang, Ruqi and Cooper, A. Feder and De Sa, Christopher},
+  booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+  pages     = {2142--2152},
+  year      = {2020},
+  volume    = {108},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v108/zhang20e.html}
 }
 ```
 
@@ -112,3 +116,11 @@ Tests
 ```bash
 JAX_PLATFORMS=cpu python tests/test_amagold.py    # or pytest tests/
 ```
+
+License
+-------
+
+Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE). The upstream
+code, [ruqizhang/amagold](https://github.com/ruqizhang/amagold), carries no
+license of its own; this port is released with the knowledge and agreement of
+its authors.
